@@ -1,0 +1,87 @@
+.dropzone {
+      width: 100px;
+      height: 80px;
+      border: 1px dashed #999;
+      border-radius: 3px;
+      text-align: center;
+}
+
+.upload-icon {
+      margin: 25px 2px 2px 2px;
+}
+
+.upload-input {
+      position: relative;
+      top: -62px;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+}
+
+#error {
+      float: left;
+      position: relative;
+      color: white;
+      background-color: orange;
+      line-height: 30px;
+      min-width: 100%;
+      margin-top: 10px;
+      padding-left: 20px;
+      border-radius: 5px;
+}
+
+#errorBook {
+      float: left;
+      position: relative;
+      color: white;
+      background-color: orange;
+      line-height: 30px;
+      min-width: 100%;
+      margin-top: 10px;
+      padding-left: 20px;
+      border-radius: 5px;
+}
+
+.checkmark {
+      box-shadow: 10px green;
+      border: 10px solid;
+}
+
+::-webkit-input-placeholder {
+      font-size: 1vw;
+}
+
+:-moz-placeholder {
+      /* Firefox 18- */
+      font-size: 1vw;
+}
+
+::-moz-placeholder {
+      /* Firefox 19+ */
+      font-size: 1vw;
+}
+
+:-ms-input-placeholder {
+      font-size: 1vw;
+}
+
+#email-error {
+      color: #a94442;
+      background-color: #f2dede;
+      border-color: #ebccd1;
+      margin-top: 5px;
+      padding: 5px 20px 5px 20px;
+      width: 100%;
+      font-size: 2vw;
+}
+
+#phone-error {
+      color: #a94442;
+      background-color: #f2dede;
+      border-color: #ebccd1;
+      margin-top: 5px;
+      padding: 5px 20px 5px 20px;
+      width: 100%;
+      font-size: 2vw;
+}
